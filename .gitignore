@@ -1,0 +1,28 @@
+# Ignorar arquivos de compilação e diretórios
+/dist/
+/out/
+/build/
+
+# Ignorar arquivos de configuração
+/tsconfig.json
+/tsconfig.tsbuildinfo
+
+# Ignorar arquivos de definição de tipos
+/*.d.ts
+
+# Ignorar arquivos de dependências
+/node_modules/
+
+# Ignorar arquivos de cache
+/.cache/
+
+# Ignorar arquivos temporários
+/.temp/
+
+# Ignorar arquivos de ambiente
+/.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de log
+*.log
