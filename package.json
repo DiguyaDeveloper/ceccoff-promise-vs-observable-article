@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm ./src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts",
+    "test": "node --loader tsx --test src/tests/*.spec.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.9.2",
+    "@types/node": "^20.10.4",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "tsx": "^4.6.2"
   }
 }
